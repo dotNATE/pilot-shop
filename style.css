@@ -17,6 +17,12 @@ h1 {
 	letter-spacing: 20px;
 }
 
+h2 {
+	text-transform: uppercase;
+	font-size: 3rem;
+	letter-spacing: 5px;
+}
+
 a {
 	text-transform:uppercase;
 	white-space: nowrap;
@@ -122,4 +128,20 @@ main p {
 	font-size: 1.25rem;
 	color: #589EC2;
 	font-weight: bold;
+}
+
+/* blog ad rules */
+
+.blog-banner-ad {
+	width: 100%;
+	height: 512px;
+	background-image: url(https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide1_image.jpg?v=9240162744247295619);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.blog-banner-ad h2 {
+	color: #FFFFFF;
 }
