@@ -92,12 +92,18 @@ main {
 }
 
 main p {
-	text-transform:uppercase;
+	text-transform: uppercase;
 }
+
 .rotating-offers {
 	position: relative;
 	top: 100px;
 	width: 70%;
 	display: flex;
 	justify-content: space-between;
+}
+
+/* featured products rules */
+.featured-products {
+	margin-top: 300px;
 }
