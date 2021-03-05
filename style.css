@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-	box-sizing:border-box;
+	box-sizing: border-box;
 	font-family: 'roboto', sans-serif;
+	text-align: center;
 }
 
 body {
@@ -73,12 +74,12 @@ nav {
 main {
 	position: relative;
 	top: 150px;
-	width:100%;
+	width: 100%;
 	height: 712px;
 	background-image: url(https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide3_image.jpg?v=12641487025129283819);
-	display:flex;
+	display: flex;
 	flex-direction: column;
-	align-items:center;
+	align-items: center;
 	color: #FFFFFF;
 }
 
@@ -106,4 +107,18 @@ main p {
 /* featured products rules */
 .featured-products {
 	margin-top: 300px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid green;
+}
+
+.featured-gallery {
+	width: 60%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin: 0 auto;
+}
+
+.product-window {
+	border: 1px solid red;
 }
