@@ -109,7 +109,6 @@ main p {
 	margin-top: 300px;
 	display: flex;
 	flex-direction: column;
-	border: 1px solid green;
 }
 
 .featured-gallery {
@@ -119,6 +118,8 @@ main p {
 	margin: 0 auto;
 }
 
-.product-window {
-	border: 1px solid red;
+.product-window-price {
+	font-size: 1.25rem;
+	color: #589EC2;
+	font-weight: bold;
 }
