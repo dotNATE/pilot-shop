@@ -153,7 +153,7 @@ main p {
 /* news rules */
 
 .news {
-	margin-top: 75px;
+	margin: 75px 0;
 }
 
 .article-container {
@@ -190,4 +190,5 @@ main p {
 	margin: 25px 50px;
 	text-align: left;
 	color: #589ec2;
+	padding: 10px;
 }
