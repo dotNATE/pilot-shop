@@ -6,6 +6,7 @@ fetch('template.hbs')
         fetch('items.json')
             .then(response => response.json())
             .then(response => {
+                response.products.sort(() => .5 - Math.random())
                 const html = template(response)
                 document.querySelector('.featured-gallery').innerHTML = html
             })
