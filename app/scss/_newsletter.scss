@@ -1,0 +1,16 @@
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #589ec2;
+  height: 150px;
+  & input {
+    width: 25%;
+    height: 50px;
+    border: none;
+    margin: 25px 50px;
+    text-align: left;
+    color: #589ec2;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,22 @@
+.news {
+  margin: 75px 0;
+}
+
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 60%;
+  margin: 0 auto;
+}
+
+.news-img {
+  width: 270px;
+  height: 334px;
+}
+
+.news-article {
+  & h3, p {
+    width: 80%;
+    margin: 7.5px auto;
+  }
+}

@@ -1,0 +1,13 @@
+.blog-banner-ad {
+  width: 100%;
+  height: 512px;
+  background-image: url(https://cdn.shopify.com/s/files/1/1634/8185/t/2/assets/slide1_image.jpg?v=9240162744247295619);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & h2 {
+    color: $bg-color;
+  }
+}

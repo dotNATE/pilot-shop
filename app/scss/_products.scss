@@ -1,0 +1,18 @@
+.featured-products {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-gallery {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+}
+
+.product-window-price {
+  font-size: 1.25rem;
+  color: #589EC2;
+  font-weight: bold;
+}
